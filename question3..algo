@@ -1,0 +1,39 @@
+ALGORITHM algorithm_plus_grand3
+VAR
+    val1 , val2 ,val3 : INTEGER
+
+BEGIN
+    write(" donner un entier  val1 = ")
+    Read(val1)
+    write(" donner un entier  val1 = ")
+    Read(val2)
+
+    write(" donner un entier  val1 = ")
+    Read(val2)
+
+
+
+
+
+    IF (val1 > val2 ) THEN
+         
+         IF (val1 > val3 ) THEN
+            write("  valeur 1 est plus grand  ")
+         ELSE
+            write("  valeur 3 est plus grand  ")
+         END_IF
+
+    ELSE
+         
+         IF (val2 > val3) THEN
+
+           write("  valeur 2 est plus grand  ")
+
+         ELSE
+            write("  valeur 3 est plus grand  ")
+         END_IF
+
+    END_IF
+END
+
+

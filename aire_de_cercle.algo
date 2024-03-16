@@ -1,0 +1,12 @@
+ALGORITHM aire_de_cercle 
+VAR
+    pi : const = 3.14
+     R : INTEGER 
+BEGIN
+    
+    write("donner le rayon de cercle ")
+    Read(R)
+
+    aire_cercle = pi * R *R 
+
+END
