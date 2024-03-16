@@ -3,28 +3,18 @@ VAR
     X , Y : INTEGER
     sum : INTEGER := 0 
 BEGIN
-     write(" donner un entier  X= ")
-    Read(X)
-    write(" donner un entier  X = ")
-    Read(Y)
-      
-      sum = X + Y
-    if( sum <= 20 )THEN
+    
      REPEAT
     
- 
-
        write(" donner un entier  X= ")
        Read(X)
        write(" donner un entier  X = ")
        Read(Y)
 
+     sum = X + Y 
 
-     UNTIL (  sum >20)
-
-    ELSE
+     UNTIL (  sum > 20)
        
        write("la somme de X= ",X   " +  Y = ", Y , "est " , sum )
-    END_IF
 
 END

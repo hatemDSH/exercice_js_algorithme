@@ -11,10 +11,6 @@ BEGIN
     write(" donner un entier  val1 = ")
     Read(val2)
 
-
-
-
-
     IF (val1 > val2 ) THEN
          
          IF (val1 > val3 ) THEN
